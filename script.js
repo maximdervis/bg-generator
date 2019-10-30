@@ -3,7 +3,7 @@ const color2 = document.querySelector(".color2");
 const currenBg = document.querySelector("h3");
 const body = document.querySelector("body");
 
-var changeColor = () => 
+const changeColor = () => 
 {
 	body.style.background = `linear-gradient(to right, ${color1.value}, ${color2.value})`;
 	currenBg.textContent = body.style.background + `;`;
